@@ -20,3 +20,8 @@ do
 	echo "created directory :$dani"
 done
 
+#list the directory
+echo "List the Directory :"
+ls -d */ 
+
+
