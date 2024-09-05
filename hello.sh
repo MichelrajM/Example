@@ -24,4 +24,7 @@ done
 echo "List the Directory :"
 ls -d */ 
 
+#list from all 
+echo "list in all :"
+ls -lrt 
 
