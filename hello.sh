@@ -7,8 +7,24 @@
 b=200
 echo $b
 
-
-
 a=100
 echo $a
+
+#declare the array
+array=("one" "two" "three")
+#
+#using for loop
+for dani in "${array[1]}";
+do
+	mkdir "$dani"
+	echo "created directory :$dani"
+done
+
+#list the directory
+echo "List the Directory :"
+ls -d */ 
+
+#list from all 
+echo "list in all :"
+ls -lrt 
 
